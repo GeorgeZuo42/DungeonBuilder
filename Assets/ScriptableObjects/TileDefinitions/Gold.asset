@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacd7d2666c12044f86b2b116a39637a, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: 
+  TileType: 4
+  View:
+    Top:
+      Prefab: {fileID: 5871182715817601354, guid: 879237863ab55084cb4d4772e867f38d,
+        type: 3}
+    North:
+      Prefab: {fileID: 787994378747782820, guid: da2eee79fb0707941b4b5821e512f017,
+        type: 3}
+    East:
+      Prefab: {fileID: 1768723717812304698, guid: cbd4c7a63938ec64eabb20112797f4c7,
+        type: 3}
+    South:
+      Prefab: {fileID: 7034316298253218343, guid: 48cc46f40dd902247b7602f19ce4c4ed,
+        type: 3}
+    West:
+      Prefab: {fileID: 5540549970539048844, guid: 4b8e1d9d181e07e408c9590e7eb4afb4,
+        type: 3}

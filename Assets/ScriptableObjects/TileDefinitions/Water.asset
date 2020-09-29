@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacd7d2666c12044f86b2b116a39637a, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  TileType: 1
+  View:
+    Top:
+      Prefab: {fileID: 1346243404830119761, guid: f6fbe32c7cb84e8408b307b88f993a40,
+        type: 3}
+    North:
+      Prefab: {fileID: 0}
+    East:
+      Prefab: {fileID: 0}
+    South:
+      Prefab: {fileID: 0}
+    West:
+      Prefab: {fileID: 0}

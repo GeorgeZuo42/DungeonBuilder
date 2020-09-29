@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacd7d2666c12044f86b2b116a39637a, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  TileType: 2
+  View:
+    Top:
+      Prefab: {fileID: 5871182715817601354, guid: e72a738fbf490bd40a0814b36956ffd0,
+        type: 3}
+    North:
+      Prefab: {fileID: 787994378747782820, guid: a4e2de63c0a68fe45910363e3584fef7,
+        type: 3}
+    East:
+      Prefab: {fileID: 1768723717812304698, guid: ef624a2a4ab943c47b838e1290369a66,
+        type: 3}
+    South:
+      Prefab: {fileID: 7034316298253218343, guid: acc5ea8668763ba4b95e9c0ddf034067,
+        type: 3}
+    West:
+      Prefab: {fileID: 5540549970539048844, guid: 64d9339fa4ae7d54ab42add88cc169c2,
+        type: 3}

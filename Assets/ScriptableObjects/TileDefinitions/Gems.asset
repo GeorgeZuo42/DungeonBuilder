@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacd7d2666c12044f86b2b116a39637a, type: 3}
+  m_Name: Gems
+  m_EditorClassIdentifier: 
+  TileType: 5
+  View:
+    Top:
+      Prefab: {fileID: 5871182715817601354, guid: 563ee165efa2b8f418228d642ade63c2,
+        type: 3}
+    North:
+      Prefab: {fileID: 787994378747782820, guid: 247ea1eeffe565648a65537e22c0442e,
+        type: 3}
+    East:
+      Prefab: {fileID: 1768723717812304698, guid: e27570e3a50f419448702af866053a68,
+        type: 3}
+    South:
+      Prefab: {fileID: 7034316298253218343, guid: 5c99d9c693bf1aa4eb1778cb8b5454fd,
+        type: 3}
+    West:
+      Prefab: {fileID: 5540549970539048844, guid: c4114f04c7495f4488eb7faf7b029a1f,
+        type: 3}
