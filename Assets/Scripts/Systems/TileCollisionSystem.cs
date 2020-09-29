@@ -7,6 +7,7 @@ using Unity.Physics.Systems;
 namespace Game.DungeonBurst
 {
     //we always want to update before BuildPhysicsWorld
+    [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
     [UpdateBefore(typeof(BuildPhysicsWorld))]
     public class TileCollisionSystem : JobComponentSystem
     {

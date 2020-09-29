@@ -84,7 +84,7 @@ namespace Game.DungeonBurst
                     commandBuffer.DestroyEntity(entityInQueryIndex, entity);
                 }
                 // we need to tell the compiler that we will only read the updateEntities array. when the job is complete dispose it    
-            }).WithReadOnly(updateEntities).WithDeallocateOnJobCompletion(updateEntities).Schedule(inputDeps);
+            }).WithReadOnly(updateEntities).WithDisposeOnCompletion(updateEntities).Schedule(inputDeps);
 
             // second we want to instantiate all ViewParts for all MapTiles that require an update
 
